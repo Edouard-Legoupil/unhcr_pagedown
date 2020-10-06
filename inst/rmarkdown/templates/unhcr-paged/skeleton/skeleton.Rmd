@@ -1,0 +1,54 @@
+---
+# This will appear in the cover page of your report
+title: "Protection Monitoring Report"
+subtitle: "profiling vulnerabilities of displaced population"
+date: "`r Sys.Date()`"
+# Content of your abstract / executive summary
+abstract: |
+  This template is designed to make the process of creating publication-ready graphics and reports with UNHCR style a more __reproducible process__. As the styling is already built-in, users will be able to save time and focus on analysis narrative rather than on technical configuration. It shall support anyone who wants to make advanced graphics and gain efficiency in the generation of statistical reports. 
+# You can multiple author for the reports - they will be inserted in the last page
+author:
+  - name: Edouard Legoupil
+    affiliation: UNHCR
+    email: <legoupil@unhcr.org
+    url: <https://www.unhcr.org>
+  - name: Romain Lesur
+    affiliation: Contributor
+output: 
+  unhcrpagedown::unhcr_paged:
+    # you can customise the name of TOC & Abstract below
+    toc-title: Contents
+    abstract-title: Executive Summary
+    # change to true for a self-contained document, but it'll be a litte slower for Pandoc to render
+    self_contained: true
+    toc: true
+    highlight: null
+    paged-footnotes: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
