@@ -32,7 +32,7 @@
 #'   (see Details).
 #' @references \url{https://pagedown.rbind.io}
 #' @return An R Markdown output format.
-#' @import stats utils
+#' @import stats utils pagedown
 #' @export
 #'
 #'
@@ -41,14 +41,5 @@ unhcr_paged = function(
   template = pkg_resource('html', 'paged.html'), csl = NULL,
   front_cover = NULL, back_cover = NULL
 ) {
-  pagedown::html_format(
-    ..., css = css, theme = theme, template = template, .pagedjs = TRUE,
-    .pandoc_args = c(
-      lua_filters('uri-to-fn.lua', 'loft.lua', 'footnotes.lua'), # uri-to-fn.lua must come before footnotes.lua
-      if (!is.null(csl)) c('--csl', csl),
-      pandoc_chapter_name_args(),
-      pandoc_covers_args(front_cover, back_cover)
-    ),
-    .dependencies = covers_dependencies(front_cover, back_cover)
-  )
+  pagedown::html_paged( )
 }
