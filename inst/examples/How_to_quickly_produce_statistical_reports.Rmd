@@ -15,7 +15,7 @@ author:
   - name: Romain Lesur
     affiliation: Contributor
 output: 
-  pagedown::unhcr_paged:
+  unhcrpagedown::unhcr_paged:
     # you can customise the name of TOC & Abstract below
     toc-title: Contents
     abstract-title: Executive Summary
@@ -33,7 +33,7 @@ using <- function(...) {
     req <- unlist(lapply(libs,require,character.only = TRUE))
     need <- libs[req == FALSE]
     if (length(need) > 0) { 
-        install.packages(need)
+        install.packages(need, repos = "http://cran.rstudio.com")
         lapply(need,require,character.only = TRUE)
     }
 }
