@@ -12,8 +12,8 @@
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <!-- Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/yeti/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous" />
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
 
@@ -77,16 +77,7 @@
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="../index.html">
-    <span class="fas fa fas fa-home fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="../reference/index.html">Reference</a>
-</li>
-<li class="dropdown">
+        <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     Articles
      
@@ -94,12 +85,18 @@
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="../articles/unhcr-palette-test.html">Demonstrating Palette</a>
+      <a href="../articles/unhcr-theme-test.html">Demonstration of themes</a>
     </li>
     <li>
-      <a href="../articles/unhcr-theme-test.html">Demonstrating themes in GGplot2</a>
+      <a href="../articles/unhcr-palette-test.html">Demonstration of palette</a>
     </li>
   </ul>
+</li>
+<li>
+  <a href="../news/index.html">News</a>
+</li>
+<li>
+  <a href="../reference/index.html">Reference</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -136,7 +133,7 @@
     <tbody>
       <tr>
         <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
+          <h2 id="section-gggplot-themes" class="hasAnchor"><a href="#section-gggplot-themes" class="anchor"></a>Gggplot2 themes</h2>
           <p class="section-desc"></p>
         </th>
       </tr>
@@ -146,76 +143,6 @@
       
       
       <tr>
-        
-        <td>
-          <p><code><a href="get_unhcr_palettes.html">get_unhcr_palettes()</a></code> </p>
-        </td>
-        <td><p>Get names of all unique palettes provided in unhcr</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="html_test.html">html_test()</a></code> </p>
-        </td>
-        <td><p>Test HTML template</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="scale_custom.html">scale_color_discrete_unhcr()</a></code> <code><a href="scale_custom.html">scale_colour_discrete_unhcr()</a></code> <code><a href="scale_custom.html">scale_fill_discrete_unhcr()</a></code> <code><a href="scale_custom.html">scale_color_opinionated_unhcr()</a></code> <code><a href="scale_custom.html">scale_colour_opinionated_unhcr()</a></code> <code><a href="scale_custom.html">scale_fill_opinionated_unhcr()</a></code> <code><a href="scale_custom.html">scale_color_diverging_unhcr()</a></code> <code><a href="scale_custom.html">scale_colour_diverging_unhcr()</a></code> <code><a href="scale_custom.html">scale_fill_diverging_unhcr()</a></code> <code><a href="scale_custom.html">scale_color_continuous_unhcr()</a></code> <code><a href="scale_custom.html">scale_colour_continuous_unhcr()</a></code> <code><a href="scale_custom.html">scale_fill_continuous_unhcr()</a></code> </p>
-        </td>
-        <td><p>Custom color and fill scales
-
-Custom coloring and filling functions based on unique color palettes
-
-Specific functions include:
-<ul>
-<li><p>scale_(color/colour/fill)_discrete_unhcrDiscrete palette with either fixed or dynamically extended number of shades</p></li>
-<li><p>scale_(color/colour/fill)_opinionated_unhcrDiscrete palette with specific values for "good", "bad", and "neutral"</p></li>
-<li><p>scale_(color/colour/fill)_diverging_unhcrContinuous diverging color palette</p></li>
-<li><p>scale_(color/colour/fill)_continuous_unhcrContinuous color palette</p></li>
-</ul></p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="slides_test.html">slides_test()</a></code> </p>
-        </td>
-        <td><p>Test HTML template</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="test_pal.html">test_pal</a></code> </p>
-        </td>
-        <td><p>Test palette</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="test_pal_cont.html">test_pal_cont</a></code> </p>
-        </td>
-        <td><p>Define two colors for endpoints of continuous palette</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="test_pal_div.html">test_pal_div</a></code> </p>
-        </td>
-        <td><p>Define three colors for endpoints of diverging continuous pallete (high, middle, low)</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="test_pal_op.html">test_pal_op</a></code> </p>
-        </td>
-        <td><p>Define opinionated discrete palette (good, neutral, bad)</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="unhcRstyle.html">unhcRstyle</a></code> </p>
-        </td>
-        <td><p><code>unhcRstyle</code> package</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="unhcr_paged.html">unhcr_paged()</a></code> </p>
-        </td>
-        <td><p>Create a paged HTML document suitable for printing with UNHCR Brand</p></td>
-      </tr><tr>
         
         <td>
           <p><code><a href="unhcr_style_bar.html">unhcr_style_bar()</a></code> </p>
@@ -263,6 +190,141 @@ Specific functions include:
           <p><code><a href="unhcr_style_scatter_big.html">unhcr_style_scatter_big()</a></code> </p>
         </td>
         <td><p>UNHCR ggplot2 theme for scatter plots  with big labels for powerpoints</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-palette" class="hasAnchor"><a href="#section-palette" class="anchor"></a>Palette</h2>
+          <p class="section-desc"></p>
+        </th>
+      </tr>
+      
+      
+    </tbody><tbody>
+      
+      
+      <tr>
+        
+        <td>
+          <p><code><a href="get_unhcr_palettes.html">get_unhcr_palettes()</a></code> </p>
+        </td>
+        <td><p>Get names of all unique palettes provided in unhcr</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="test_pal.html">test_pal</a></code> </p>
+        </td>
+        <td><p>Test palette</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="test_pal_cont.html">test_pal_cont</a></code> </p>
+        </td>
+        <td><p>Define two colors for endpoints of continuous palette</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="test_pal_div.html">test_pal_div</a></code> </p>
+        </td>
+        <td><p>Define three colors for endpoints of diverging continuous pallete (high, middle, low)</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="test_pal_op.html">test_pal_op</a></code> </p>
+        </td>
+        <td><p>Define opinionated discrete palette (good, neutral, bad)</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-function-to-apply-the-palette" class="hasAnchor"><a href="#section-function-to-apply-the-palette" class="anchor"></a>Function to apply the palette</h2>
+          <p class="section-desc"></p>
+        </th>
+      </tr>
+      
+      
+    </tbody><tbody>
+      
+      
+      <tr>
+        
+        <td>
+          <p><code><a href="scale_custom.html">scale_color_discrete_unhcr()</a></code> <code><a href="scale_custom.html">scale_colour_discrete_unhcr()</a></code> <code><a href="scale_custom.html">scale_fill_discrete_unhcr()</a></code> <code><a href="scale_custom.html">scale_color_opinionated_unhcr()</a></code> <code><a href="scale_custom.html">scale_colour_opinionated_unhcr()</a></code> <code><a href="scale_custom.html">scale_fill_opinionated_unhcr()</a></code> <code><a href="scale_custom.html">scale_color_diverging_unhcr()</a></code> <code><a href="scale_custom.html">scale_colour_diverging_unhcr()</a></code> <code><a href="scale_custom.html">scale_fill_diverging_unhcr()</a></code> <code><a href="scale_custom.html">scale_color_continuous_unhcr()</a></code> <code><a href="scale_custom.html">scale_colour_continuous_unhcr()</a></code> <code><a href="scale_custom.html">scale_fill_continuous_unhcr()</a></code> </p>
+        </td>
+        <td><p>Custom color and fill scales
+
+Custom coloring and filling functions based on unique color palettes
+
+Specific functions include:
+<ul>
+<li><p>scale_(color/colour/fill)_discrete_unhcrDiscrete palette with either fixed or dynamically extended number of shades</p></li>
+<li><p>scale_(color/colour/fill)_opinionated_unhcrDiscrete palette with specific values for "good", "bad", and "neutral"</p></li>
+<li><p>scale_(color/colour/fill)_diverging_unhcrContinuous diverging color palette</p></li>
+<li><p>scale_(color/colour/fill)_continuous_unhcrContinuous color palette</p></li>
+</ul></p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-rmd-template" class="hasAnchor"><a href="#section-rmd-template" class="anchor"></a>Rmd template</h2>
+          <p class="section-desc"></p>
+        </th>
+      </tr>
+      
+      
+    </tbody><tbody>
+      
+      
+      <tr>
+        
+        <td>
+          <p><code><a href="html_test.html">html_test()</a></code> </p>
+        </td>
+        <td><p>Test HTML template</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="slides_test.html">slides_test()</a></code> </p>
+        </td>
+        <td><p>Test HTML template</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-paginated-report" class="hasAnchor"><a href="#section-paginated-report" class="anchor"></a>Paginated Report</h2>
+          <p class="section-desc"></p>
+        </th>
+      </tr>
+      
+      
+    </tbody><tbody>
+      
+      
+      <tr>
+        
+        <td>
+          <p><code><a href="unhcr_paged.html">unhcr_paged()</a></code> </p>
+        </td>
+        <td><p>Create a paged HTML document suitable for printing with UNHCR Brand</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-other" class="hasAnchor"><a href="#section-other" class="anchor"></a>Other</h2>
+          <p class="section-desc"></p>
+        </th>
+      </tr>
+      
+      
+    </tbody><tbody>
+      
+      
+      <tr>
+        
+        <td>
+          <p><code><a href="unhcRstyle.html">unhcRstyle</a></code> </p>
+        </td>
+        <td><p><code>unhcRstyle</code> package</p></td>
       </tr>
     </tbody>
     </table>

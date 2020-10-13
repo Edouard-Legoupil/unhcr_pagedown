@@ -48,3 +48,11 @@ This package requires a recent version of Pandoc (>= 2.2.3). If you use RStudio,
 
 
 If you encounter a clear bug, please file a minimal reproducible example on [github](https://github.com/edouard-legoupil/unhcr_pagedown/issues). 
+
+### References / Inspiration
+
+ * https://emilyriederer.netlify.app/post/rtistic/
+ * https://emilyriederer.netlify.app/talk/rmarkdown-driven-development/
+ * https://hneth.github.io/unikn/
+ * https://bbc.github.io/rcookbook/
+ 
