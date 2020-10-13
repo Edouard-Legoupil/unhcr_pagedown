@@ -228,11 +228,11 @@ retrieve_palette <- function(name, type = c("base", "op", "div", "cont")){
   # attempt to get palette requrested
   pal_base <- paste0(name, "_pal")
   pal_name <- if (type == "base") pal_base else paste0(name, "_pal_", type)
-  pal <- try(utils::getFromNamespace(pal_name, "unhcr"))
+  pal <- try(utils::getFromNamespace(pal_name, "unhcRstyle"))
 
   # if fails, attempt to use base palette
   if (class(pal) == "try-error") {
-    pal <- try(utils::getFromNamespace(pal_base, "unhcr"))
+    pal <- try(utils::getFromNamespace(pal_base, "unhcRstyle"))
   }
 
   # if base fails, throw error
