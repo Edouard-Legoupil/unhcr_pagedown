@@ -2,29 +2,29 @@
 
 ## Content 
 
-A package with all necessary elements to quickly implement UNHCR Brand style in your reports: 
+A package with all necessary elements to quickly implement [UNHCR Brand style](https://intranet.unhcr.org/content/dam/unhcr/intranet/staff%20support/strategic/documents/english/branded-templates/main/Accessing%20UNHCR%20Brand%20Compliant%20Templates%20user%20guide.pdf) in your statistical products and data stories: 
 
- 1. Adjusted [ggplot2 __themes__](https://ggplot2.tidyverse.org/reference/theme.html) for:
+1. Adjusted [ggplot2 __themes__](https://ggplot2.tidyverse.org/reference/theme.html) for:
    * bar chart,
    * scatter plot,
    * histogram and
    * maps
  
- 2. A series of [color __palette__](http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/) for: 
+2. A series of [color __palette__](http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/) for: 
  
    * Discrete palette with either fixed or dynamically extended number of shades
    * Discrete palette with specific values for "good", "bad", and "neutral"
    * Continuous diverging color palette
    * Continuous color palette 
  
- 3. Rmd __output template__ for:
+3. Rmd __output template__ for:
    *  Word,
    *  Powerpoint and 
    *  html/bootstrap
  
- 4. A __markdown template for paginated report__ built on the top of pagedown. You can see an example through the  [UNHCR R Cookbook](https://edouard-legoupil.github.io/unhcr_pagedown/inst/examples/How_to_quickly_produce_statistical_reports.html)
+4. A __markdown template for paginated report__ built on the top of pagedown. You can see an example through the  [UNHCR R Cookbook](https://edouard-legoupil.github.io/unhcr_pagedown/inst/examples/How_to_quickly_produce_statistical_reports.html)
  
- 5. and __Markdown skeleton__ to quick-start any report or slides you need to prepare
+5. and __Markdown skeleton__ to quick-start any report or slides you need to prepare
 
 
 ## Usage 

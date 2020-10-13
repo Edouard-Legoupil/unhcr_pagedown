@@ -23,7 +23,7 @@ Specific functions include:
 \item{scale_(color/colour/fill)_discrete_unhcr}{Discrete palette with either fixed or dynamically extended number of shades}
 \item{scale_(color/colour/fill)_opinionated_unhcr}{Discrete palette with specific values for "good", "bad", and "neutral"}
 \item{scale_(color/colour/fill)_diverging_unhcr}{Continuous diverging color palette}
-\item{scale_(color/colour/fill)_continuous_unhcr}{COntinuous color palette}
+\item{scale_(color/colour/fill)_continuous_unhcr}{Continuous color palette}
 }}
 \usage{
 scale_color_discrete_unhcr(palette = "test", extend = FALSE, ...)
@@ -67,7 +67,7 @@ Specific functions include:
 \item{scale_(color/colour/fill)_discrete_unhcr}{Discrete palette with either fixed or dynamically extended number of shades}
 \item{scale_(color/colour/fill)_opinionated_unhcr}{Discrete palette with specific values for "good", "bad", and "neutral"}
 \item{scale_(color/colour/fill)_diverging_unhcr}{Continuous diverging color palette}
-\item{scale_(color/colour/fill)_continuous_unhcr}{COntinuous color palette}
+\item{scale_(color/colour/fill)_continuous_unhcr}{Continuous color palette}
 }
 
 Discrete palette with either fixed or dynamically extended number of shades
