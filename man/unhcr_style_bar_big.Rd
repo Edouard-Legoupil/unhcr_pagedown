@@ -12,16 +12,6 @@ Return UNHCR Style
 \description{
 Return ggplot2 styling for bar chart
 }
-\examples{
-{
-library(ggplot2)
-data <- data.frame(x = 1:10, y = 1:10)
-ggplot(data, aes(x, y)) + geom_bar() +
-unhcr_style_bar_big()
-}
-
-
-}
 \references{
 https://github.com/gadenbuie/ggpomological/blob/master/R/theme_pomological.R
 }

@@ -15,7 +15,7 @@ author:
   - name: Romain Lesur
     affiliation: Contributor
 output: 
-  unhcrpagedown::unhcr_paged:
+  unhcRstyle::unhcr_paged:
     # you can customise the name of TOC & Abstract below
     toc-title: Contents
     abstract-title: Executive Summary
@@ -1230,7 +1230,7 @@ multiple_line2 <- multiple_line +
 ```
 
 ```{r echo=FALSE, message = FALSE, warning = FALSE}
-ggpubr::ggarrange(left_align(multiple_line2, c("subtitle", "title")), ncol = 1, nrow = 1)
+#ggpubr::ggarrange(left_align(multiple_line2, c("subtitle", "title")), ncol = 1, nrow = 1)
 ```
 
 ## Left-align/right-align text

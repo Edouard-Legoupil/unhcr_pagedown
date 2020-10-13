@@ -9,11 +9,11 @@
 #'
 #'
 unhcr_paged = function(...) {
-  cssfile <- function(...) { 
-    system.file("resources", "css", paste0(..., ".css"), package = "unhcrpagedown")
+  cssfile <- function(...) {
+    system.file("resources", "css", paste0(..., ".css"), package = "unhcRstyle")
   }
-  
+
   pagedown::html_paged(
-    css = c(cssfile('unhcr-fonts'), cssfile('unhcr-page'), cssfile('unhcr')), 
+    css = c(cssfile('unhcr-fonts'), cssfile('unhcr-page'), cssfile('unhcr')),
     ...)
 }
