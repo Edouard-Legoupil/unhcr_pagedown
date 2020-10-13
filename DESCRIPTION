@@ -1,17 +1,14 @@
-Package: unhcrpagedown
+Package: unhcRstyle
 Type: Package
 Title: Paginate the HTML Output of R Markdown with CSS for Print
 Version: 0.1.0
 Authors@R: c(
-  person("Edouard", "Legoupil", role = c("aut", "cre"), email = "legoupil@unhcr.org"),
-  person("Romain", "Lesur", role = c("aut", "cph"), comment = c(ORCID = "0000-0002-0721-5595")))
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: Use the paged media properties in CSS and the JavaScript
-  library 'paged.js' to split the content of an HTML document into discrete
-  pages. Each page can have its page size, page numbers, margin boxes, and
-  running headers, etc. Applications of this package is to generate reproducible
-  statistical report for UNHCR
-Imports: pagedown
+  person("Cedric", "Vidonne", role = c("aut", "cre"), email = "vidonne@unhcr.org"),
+  person("Edouard", "Legoupil", role = c("aut", "ctb"), email = "legoupil@unhcr.org"))
+Maintainer: Cedric Vidonne <vidonne@unhcr.org>
+Description: A collection of template, palettes and themes for plots, documents, and slides
+ based on UNHCR branding
+Imports: pagedown,ggplot2
 Suggests: promises, testit, xaringan, pdftools, revealjs
 License: MIT + file LICENSE
 URL: https://github.com/Edouard-Legoupil/unhcr_pagedown

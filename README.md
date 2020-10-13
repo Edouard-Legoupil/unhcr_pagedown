@@ -1,15 +1,33 @@
-# unhcrpagedown
+# unhcRstyle
 
-<a href="https://github.com/rstudio/pagedown"><img src="https://user-images.githubusercontent.com/163582/51942716-66be4180-23dd-11e9-8dbc-fdb4f465d1c2.png" alt="pagedown logo" align="right" /></a>
+A package with all necessary elements to implement UNHCR Brand style: 
 
-Paginate the HTML Output of R Markdown with CSS for Print. You only need a modern web browser (e.g., Google Chrome) to generate PDF. No need to install LaTeX to get beautiful PDFs.
+ * ggplot2 theme for bar chart, scatter plot, histogram and maps
+ 
+ * a series of color palette
+ 
+ * Rmd output template in Word, Powerpoint and html/bootstrap
+ 
+ * A markdown template built on the top of pagedown
+ 
+ * Markown skeleton to quick-start any report you need to prepare
 
-This R package stands on the shoulders of two giants to support typesetting with CSS for R Markdown documents: [Paged.js](https://gitlab.pagedmedia.org/tools/pagedjs) and [ReLaXed](https://github.com/RelaxedJS/ReLaXed) (we only borrowed some CSS from the ReLaXed repo and didn't really use the Node package).
-
-You may install this package from Github:
+install this package from Github:
 
 ```r
-remotes::install_github('edouard-legoupil/unhcrpagedown')
+remotes::install_github('edouard-legoupil/unhcr_pagedown')
 ```
 
 This package requires a recent version of Pandoc (>= 2.2.3). If you use RStudio, you are recommended to install the [latest version](https://rstudio.com/products/rstudio/download/) (>= 1.2.1335), which has bundled Pandoc 2.x, otherwise you need to install Pandoc separately.
+
+
+#### Building package documentation 
+
+`devtools::document()`
+
+`devtools::check(document = FALSE)`
+
+`pkgdown::build_site()`
+
+
+If you encounter a clear bug, please file a minimal reproducible example on [github](https://github.com/unhcr/HighFrequencyChecks/issues). 
