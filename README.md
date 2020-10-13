@@ -2,15 +2,27 @@
 
 A package with all necessary elements to implement UNHCR Brand style: 
 
- * ggplot2 theme for bar chart, scatter plot, histogram and maps
+ 1. Adjusted [ggplot2 __themes__](https://ggplot2.tidyverse.org/reference/theme.html) for:
+   * bar chart,
+   * scatter plot,
+   * histogram and
+   * maps
  
- * a series of color palette
+ 2. A series of color palette for: 
  
- * Rmd output template in Word, Powerpoint and html/bootstrap
+   * Discrete palette with either fixed or dynamically extended number of shades
+   * Discrete palette with specific values for "good", "bad", and "neutral"
+   * Continuous diverging color palette
+   * Continuous color palette 
  
- * A markdown template built on the top of pagedown
+ 3. Rmd output template
+   *  Word,
+   *  Powerpoint and 
+   *  html/bootstrap
  
- * Markown skeleton to quick-start any report you need to prepare
+ 4. A markdown template built on the top of pagedown. You can see an example [here](inst/examples/How_to_quickly_produce_statistical_reports.html)
+ 
+ * Markdown skeleton to quick-start any report or slides you need to prepare
 
 install this package from Github:
 

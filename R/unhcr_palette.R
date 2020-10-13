@@ -10,7 +10,7 @@ NULL
 
 #' @name test_pal
 #' @export test_pal
-#' @title Define disrete palette
+#' @title Define discrete palette
 test_pal <- c(
   "#00A850", # green
   "#FEEF01", # yellow
@@ -48,7 +48,7 @@ test_pal_div  <- c(test_pal[1], test_pal[2], test_pal[4])
 #' \item{scale_(color/colour/fill)_discrete_unhcr}{Discrete palette with either fixed or dynamically extended number of shades}
 #' \item{scale_(color/colour/fill)_opinionated_unhcr}{Discrete palette with specific values for "good", "bad", and "neutral"}
 #' \item{scale_(color/colour/fill)_diverging_unhcr}{Continuous diverging color palette}
-#' \item{scale_(color/colour/fill)_continuous_unhcr}{COntinuous color palette}
+#' \item{scale_(color/colour/fill)_continuous_unhcr}{Continuous color palette}
 #' }
 #'
 #' @references https://en.wikipedia.org/wiki/Traffic_light
