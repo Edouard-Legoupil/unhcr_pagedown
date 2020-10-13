@@ -1,6 +1,8 @@
 # unhcRstyle
 
-A package with all necessary elements to implement UNHCR Brand style: 
+## Content 
+
+A package with all necessary elements to quickly implement UNHCR Brand style in your reports: 
 
  1. Adjusted [ggplot2 __themes__](https://ggplot2.tidyverse.org/reference/theme.html) for:
    * bar chart,
@@ -20,9 +22,12 @@ A package with all necessary elements to implement UNHCR Brand style:
    *  Powerpoint and 
    *  html/bootstrap
  
- 4. A __markdown template for paginated report__ built on the top of pagedown. You can see an example [here](inst/examples/How_to_quickly_produce_statistical_reports.html)
+ 4. A __markdown template for paginated report__ built on the top of pagedown. You can see an example through the  [UNHCR R Cookbook](https://edouard-legoupil.github.io/unhcr_pagedown/inst/examples/How_to_quickly_produce_statistical_reports.html)
  
- * and __Markdown skeleton__ to quick-start any report or slides you need to prepare
+ 5. and __Markdown skeleton__ to quick-start any report or slides you need to prepare
+
+
+## Usage 
 
 install this package from Github:
 
@@ -42,4 +47,4 @@ This package requires a recent version of Pandoc (>= 2.2.3). If you use RStudio,
 `pkgdown::build_site()`
 
 
-If you encounter a clear bug, please file a minimal reproducible example on [github](https://github.com/unhcr/HighFrequencyChecks/issues). 
+If you encounter a clear bug, please file a minimal reproducible example on [github](https://github.com/edouard-legoupil/unhcr_pagedown/issues). 
