@@ -8,21 +8,21 @@ A package with all necessary elements to implement UNHCR Brand style:
    * histogram and
    * maps
  
- 2. A series of color palette for: 
+ 2. A series of [color __palette__](http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/) for: 
  
    * Discrete palette with either fixed or dynamically extended number of shades
    * Discrete palette with specific values for "good", "bad", and "neutral"
    * Continuous diverging color palette
    * Continuous color palette 
  
- 3. Rmd output template
+ 3. Rmd __output template__ for:
    *  Word,
    *  Powerpoint and 
    *  html/bootstrap
  
- 4. A markdown template built on the top of pagedown. You can see an example [here](inst/examples/How_to_quickly_produce_statistical_reports.html)
+ 4. A __markdown template for paginated report__ built on the top of pagedown. You can see an example [here](inst/examples/How_to_quickly_produce_statistical_reports.html)
  
- * Markdown skeleton to quick-start any report or slides you need to prepare
+ * and __Markdown skeleton__ to quick-start any report or slides you need to prepare
 
 install this package from Github:
 
