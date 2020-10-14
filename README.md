@@ -38,6 +38,25 @@ remotes::install_github('edouard-legoupil/unhcr_pagedown')
 This package requires a recent version of Pandoc (>= 2.2.3). If you use RStudio, you are recommended to install the [latest version](https://rstudio.com/products/rstudio/download/) (>= 1.2.1335), which has bundled Pandoc 2.x, otherwise you need to install Pandoc separately.
 
 
+> This package is part of `unhcrverse`, a set of packages to ease the production of statistical evidence and data stories. You can install them all with the following:
+
+```r
+## Use UNHCR Open data
+remotes::install_github('unhcr/unhcrdatapackage')
+
+## Use API to connect to licensed / internal data source
+remotes::install_github('unhcr-web/hcrdata')
+
+## Perform High Frequency Check during data collection
+remotes::install_github('unhcr-web/HighFrequencyChecks')
+
+## Process data crunching for survey dataset
+remotes::install_github('unhcr/koboloadeR')
+
+## Use UNHCR template for reporting and writing stories
+remotes::install_github('unhcr-web/unhcRstyle')
+```
+
 #### Building package documentation 
 
 `devtools::document()`
@@ -53,6 +72,8 @@ If you encounter a clear bug, please file a minimal reproducible example on [git
 
  * https://emilyriederer.netlify.app/post/rtistic/
  * https://emilyriederer.netlify.app/talk/rmarkdown-driven-development/
+ * https://github.com/dr-harper/example-rmd-templates
  * https://hneth.github.io/unikn/
  * https://bbc.github.io/rcookbook/
+ * https://bookdown.org/yihui/rmarkdown-cookbook/
  

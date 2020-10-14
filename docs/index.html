@@ -124,6 +124,24 @@
 <div class="sourceCode" id="cb1"><pre class="downlit">
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">'edouard-legoupil/unhcr_pagedown'</span><span class="op">)</span></pre></div>
 <p>This package requires a recent version of Pandoc (&gt;= 2.2.3). If you use RStudio, you are recommended to install the <a href="https://rstudio.com/products/rstudio/download/">latest version</a> (&gt;= 1.2.1335), which has bundled Pandoc 2.x, otherwise you need to install Pandoc separately.</p>
+<blockquote>
+<p>This package is part of <code>unhcrverse</code>, a set of packages to ease the production of statistical evidence and data stories. You can install them all with the following:</p>
+</blockquote>
+<div class="sourceCode" id="cb2"><pre class="downlit">
+<span class="co">## Use alll UNHCR Open data</span>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">'unhcr/unhcrdatapackage'</span><span class="op">)</span>
+
+<span class="co">## Use API to connect to data source</span>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">'unhcr-web/hcrdata'</span><span class="op">)</span>
+
+<span class="co">## Perform High Frequency Check during data collection</span>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">'unhcr-web/HighFrequencyChecks'</span><span class="op">)</span>
+
+<span class="co">## Process data crunching for survey dataset</span>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">'unhcr/koboloadeR'</span><span class="op">)</span>
+
+<span class="co">## Use UNHCR template for reporting and writing stories</span>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">'unhcr-web/unhcRstyle'</span><span class="op">)</span></pre></div>
 <div id="building-package-documentation" class="section level4">
 <h4 class="hasAnchor">
 <a href="#building-package-documentation" class="anchor"></a>Building package documentation</h4>
@@ -138,8 +156,10 @@
 <ul>
 <li><a href="https://emilyriederer.netlify.app/post/rtistic/" class="uri">https://emilyriederer.netlify.app/post/rtistic/</a></li>
 <li><a href="https://emilyriederer.netlify.app/talk/rmarkdown-driven-development/" class="uri">https://emilyriederer.netlify.app/talk/rmarkdown-driven-development/</a></li>
+<li><a href="https://github.com/dr-harper/example-rmd-templates" class="uri">https://github.com/dr-harper/example-rmd-templates</a></li>
 <li><a href="https://hneth.github.io/unikn/" class="uri">https://hneth.github.io/unikn/</a></li>
 <li><a href="https://bbc.github.io/rcookbook/" class="uri">https://bbc.github.io/rcookbook/</a></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown-cookbook/" class="uri">https://bookdown.org/yihui/rmarkdown-cookbook/</a></li>
 </ul>
 </div>
 </div>
