@@ -22,7 +22,6 @@ reference:
   - title: Rmd template
     contents:
       - unhcr_paged
-      - unhcr_repo
       - unhcr_slide
       - unhcr_html
       - unhcr_word

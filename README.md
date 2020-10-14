@@ -34,7 +34,7 @@ install this package from Github:
 remotes::install_github('edouard-legoupil/unhcr_pagedown')
 ```
 
-Once the package installed you should see:
+Once the package installed, you should be able to create directly your report with the right template within Rstudio:
 
 ![preview](https://i.imgur.com/81VJFo5.jpg)
 
