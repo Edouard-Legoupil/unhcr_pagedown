@@ -19,10 +19,11 @@ A package with all necessary elements to quickly implement [UNHCR Brand style](h
  
 3. Different [Rmarkdown __template __](https://bookdown.org/yihui/rmarkdown/document-templates.html) to quick-start any report or slides you need to prepare:
    * Paginated report built on the top of pagedown. You can see an example through the  [UNHCR R Cookbook](https://edouard-legoupil.github.io/unhcr_pagedown/inst/examples/How_to_quickly_produce_statistical_reports.html)
-   * Word,
-   * Powerpoint
-   * html/bootstrap
-   * html/slide
+   * [Analysis Repository](http://analysis.unhcr.org) contribution
+   * Word with UNHCR style
+   * Powerpoint with UNHCR style
+   * html/bootstrap -scroll-able report
+   * html/slide - slide-able report
  
 
 ## Usage 
@@ -35,7 +36,7 @@ remotes::install_github('edouard-legoupil/unhcr_pagedown')
 
 Once the package installed you should see:
 
-![templates](https://imgur.com/a/SLxZXqA)
+![preview](https://i.imgur.com/81VJFo5.jpg)
 
 
 This package requires a recent version of Pandoc (>= 2.2.3). If you use RStudio, you are recommended to install the [latest version](https://rstudio.com/products/rstudio/download/) (>= 1.2.1335), which has bundled Pandoc 2.x, otherwise you need to install Pandoc separately.
