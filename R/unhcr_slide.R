@@ -1,13 +1,14 @@
-#' Test HTML template
+#' UNHCR HTML slide
 #'
 #' Loads additional style and template file
 #'
 #' @references https://raw.githubusercontent.com/dr-harper/example-rmd-templates/master/R/my_html_format.R
 #'
 #' @param ... additional arguments provided to \code{moon_reader}
+#' @return An R Markdown output format.
 #' @export
 #'
-slides_test <- function(...) {
+unhcr_slide <- function(...) {
 
   # confirm deps ----
   if (!requireNamespace("xaringan", quietly = TRUE)) {

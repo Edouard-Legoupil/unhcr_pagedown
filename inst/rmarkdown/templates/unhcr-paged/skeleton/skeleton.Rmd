@@ -15,7 +15,7 @@ author:
   - name: Romain Lesur
     affiliation: Contributor
 output: 
-  unhcrpagedown::unhcr_paged:
+  unhcRstyle::unhcr_paged:
     # you can customise the name of TOC & Abstract below
     toc-title: Contents
     abstract-title: Executive Summary

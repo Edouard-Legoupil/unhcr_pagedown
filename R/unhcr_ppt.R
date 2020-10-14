@@ -1,4 +1,4 @@
-#' Test HTML template
+#' UNHCR ppt template
 #'
 #' Loads additional style and template file
 #'
@@ -8,7 +8,7 @@
 #' @param ... additional arguments provided to \code{html_document}
 #' @export
 #'
-html_test <- function(
+unhcr_ppt <- function(
   toc = TRUE,
   ...) {
 

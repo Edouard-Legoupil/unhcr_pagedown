@@ -106,15 +106,16 @@
 </ul>
 </li>
 <li>
-<p>Rmd <strong>output template</strong> for:</p>
+<p>Different <a href="https://bookdown.org/yihui/rmarkdown/document-templates.html">Rmarkdown <strong>template </strong></a> to quick-start any report or slides you need to prepare:</p>
 <ul>
+<li>Paginated report built on the top of pagedown. You can see an example through the <a href="https://edouard-legoupil.github.io/unhcr_pagedown/inst/examples/How_to_quickly_produce_statistical_reports.html">UNHCR R Cookbook</a>
+</li>
 <li>Word,</li>
-<li>Powerpoint and</li>
+<li>Powerpoint</li>
 <li>html/bootstrap</li>
+<li>html/slide</li>
 </ul>
 </li>
-<li><p>A <strong>markdown template for paginated report</strong> built on the top of pagedown. You can see an example through the <a href="https://edouard-legoupil.github.io/unhcr_pagedown/inst/examples/How_to_quickly_produce_statistical_reports.html">UNHCR R Cookbook</a></p></li>
-<li><p>and <strong>Markdown skeleton</strong> to quick-start any report or slides you need to prepare</p></li>
 </ol>
 </div>
 <div id="usage" class="section level2">
@@ -123,15 +124,17 @@
 <p>install this package from Github:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit">
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">'edouard-legoupil/unhcr_pagedown'</span><span class="op">)</span></pre></div>
+<p>Once the package installed you should see:</p>
+<p><img src="https://imgur.com/a/SLxZXqA" alt="templates"></p>
 <p>This package requires a recent version of Pandoc (&gt;= 2.2.3). If you use RStudio, you are recommended to install the <a href="https://rstudio.com/products/rstudio/download/">latest version</a> (&gt;= 1.2.1335), which has bundled Pandoc 2.x, otherwise you need to install Pandoc separately.</p>
 <blockquote>
 <p>This package is part of <code>unhcrverse</code>, a set of packages to ease the production of statistical evidence and data stories. You can install them all with the following:</p>
 </blockquote>
 <div class="sourceCode" id="cb2"><pre class="downlit">
-<span class="co">## Use alll UNHCR Open data</span>
+<span class="co">## Use UNHCR Open data</span>
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">'unhcr/unhcrdatapackage'</span><span class="op">)</span>
 
-<span class="co">## Use API to connect to data source</span>
+<span class="co">## Use API to connect to licensed / internal data source</span>
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">'unhcr-web/hcrdata'</span><span class="op">)</span>
 
 <span class="co">## Perform High Frequency Check during data collection</span>

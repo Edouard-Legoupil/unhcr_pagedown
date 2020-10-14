@@ -4,16 +4,16 @@
     <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//index.html</loc>
   </url>
   <url>
+    <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/format_si.html</loc>
+  </url>
+  <url>
     <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/get_unhcr_palettes.html</loc>
   </url>
   <url>
-    <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/html_test.html</loc>
+    <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/left_align.html</loc>
   </url>
   <url>
     <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/scale_custom.html</loc>
-  </url>
-  <url>
-    <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/slides_test.html</loc>
   </url>
   <url>
     <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/test_pal.html</loc>
@@ -31,7 +31,19 @@
     <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/unhcRstyle.html</loc>
   </url>
   <url>
+    <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/unhcr_html.html</loc>
+  </url>
+  <url>
     <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/unhcr_paged.html</loc>
+  </url>
+  <url>
+    <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/unhcr_ppt.html</loc>
+  </url>
+  <url>
+    <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/unhcr_repo.html</loc>
+  </url>
+  <url>
+    <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/unhcr_slide.html</loc>
   </url>
   <url>
     <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/unhcr_style_bar.html</loc>
@@ -56,6 +68,9 @@
   </url>
   <url>
     <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/unhcr_style_scatter_big.html</loc>
+  </url>
+  <url>
+    <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//reference/unhcr_word.html</loc>
   </url>
   <url>
     <loc>https://edouard-legoupil.github.io/unhcr_pagedown/docs//articles/unhcr-palette-test.html</loc>

@@ -19,6 +19,13 @@ navbar:
     href: reference/index.html
 
 reference:
+  - title: Rmd template
+    contents:
+      - unhcr_paged
+      - unhcr_slide
+      - unhcr_html
+      - unhcr_word
+      - unhcr_ppt
   - title: Gggplot2 themes
     contents:
       - unhcr_style_bar
@@ -43,13 +50,9 @@ reference:
       - scale_(color/colour/fill)_opinionated_unhcrDiscrete
       - scale_(color/colour/fill)_diverging_unhcrContinuous
       - scale_(color/colour/fill)_continuous_unhcrContinuous
-  - title: Rmd template
+      - unhcr_repo
+  - title: Other utilities function
     contents:
-      - html_test
-      - slides_test
-  - title: Paginated Report
-    contents:
-      - unhcr_paged
-  - title: Other
-    contents:
+      - format_si
+      - left_align
       - unhcRstyle

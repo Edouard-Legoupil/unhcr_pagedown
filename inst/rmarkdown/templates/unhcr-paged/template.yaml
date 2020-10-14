@@ -1,4 +1,4 @@
-name: UNHCR statistical Report HTML Document
+name: "UNHCR paginated report"
 description: >
-   Create a paged HTML report with UNHCR Branding
+   Create a paged HTML paginated report with UNHCR Branding
 create_dir: FALSE

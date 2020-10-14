@@ -17,15 +17,13 @@ A package with all necessary elements to quickly implement [UNHCR Brand style](h
    * Continuous diverging color palette
    * Continuous color palette 
  
-3. Rmd __output template__ for:
-   *  Word,
-   *  Powerpoint and 
-   *  html/bootstrap
+3. Different [Rmarkdown __template __](https://bookdown.org/yihui/rmarkdown/document-templates.html) to quick-start any report or slides you need to prepare:
+   * Paginated report built on the top of pagedown. You can see an example through the  [UNHCR R Cookbook](https://edouard-legoupil.github.io/unhcr_pagedown/inst/examples/How_to_quickly_produce_statistical_reports.html)
+   * Word,
+   * Powerpoint
+   * html/bootstrap
+   * html/slide
  
-4. A __markdown template for paginated report__ built on the top of pagedown. You can see an example through the  [UNHCR R Cookbook](https://edouard-legoupil.github.io/unhcr_pagedown/inst/examples/How_to_quickly_produce_statistical_reports.html)
- 
-5. and __Markdown skeleton__ to quick-start any report or slides you need to prepare
-
 
 ## Usage 
 
@@ -34,6 +32,11 @@ install this package from Github:
 ```r
 remotes::install_github('edouard-legoupil/unhcr_pagedown')
 ```
+
+Once the package installed you should see:
+
+![templates](https://imgur.com/a/SLxZXqA)
+
 
 This package requires a recent version of Pandoc (>= 2.2.3). If you use RStudio, you are recommended to install the [latest version](https://rstudio.com/products/rstudio/download/) (>= 1.2.1335), which has bundled Pandoc 2.x, otherwise you need to install Pandoc separately.
 
